@@ -1,0 +1,11 @@
+body {
+    background-image: url(http://kreativo.se/backlogin.jpg);
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    padding-top: 20px;
+}
+
+
+input::-webkit-input-placeholder {
+    color:    #b5b5b5;
+}
+
