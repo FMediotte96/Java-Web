@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* Comentario....*/
+/*h1{
+	color:red;
+	font-size: 50px;
+}*/
+
+.tituloPrincipal{
+	font-size: 40px;
+	background-color: green;
+}
+
+#miLinkUnico{
+	background-color: orange;
+}
+
+a{
+	font-weight: bold;
+}
