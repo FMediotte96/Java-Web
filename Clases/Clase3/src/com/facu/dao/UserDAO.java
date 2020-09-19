@@ -7,11 +7,16 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.facu.connector.AdministradorDeConexiones;
 import com.facu.entities.User;
 
 public class UserDAO {
 
 	private Connection conn;
+	
+	public UserDAO() throws Exception {
+		this.conn = AdministradorDeConexiones.getConnection();
+	}
 
 	public UserDAO(Connection conn) {
 		this.conn = conn;
